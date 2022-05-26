@@ -728,6 +728,17 @@ footer{
         font-size: 13px;
     }
 
+/* Placing my text in the center */
+
+    p.info4{
+        font-size: 16px;
+    }
+
+    p.info7{
+        font-size: 16px;
+        text-align: center;
+    }
+
 /* Adding padding for my button & changing the font-size */ 
 
     .cta3, .cta4, .cta5, .container a.cta1, .container a.cta2{
@@ -818,7 +829,7 @@ footer{
 
 /* Setting the font-size for my text and placing it on the left */
 
-    p.info, p.info1, p.info2, p.info3, p.info4, p.info5, p.info6, p.info7, p.info8{
+    p.info, p.info1, p.info2, p.info3, p.info8{
         text-align: left;
         font-size: 16px;
     }
@@ -931,7 +942,7 @@ footer{
     }
 
     .contact img{
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 40px;
     }
 
 /* Placing the text in my container on the left side */
