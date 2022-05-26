@@ -297,3 +297,46 @@ p.info2{
     cursor: pointer;
     margin-top: 2rem;
 }
+
+/* Styling for my function-section */
+
+/* Giving my div display flex, and placing my inner-divs with flex and margin */
+
+.main3{
+    display: flex;
+
+}
+
+.screen{
+    flex: 60%;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 0px -220px 0px;
+}
+
+.text3{
+    flex: 40%;
+    padding: 5px;
+    margin: 175px 180px 0px 0px;
+}
+
+/* Button and text styling */ 
+
+p.info3{
+    color: #2F3032;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.cta5{
+    font-family: 'Montserrat Alternates', sans-serif;;
+    background: #0700F6;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #0700F6;
+    padding: 15px 25px;
+    margin-left: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
