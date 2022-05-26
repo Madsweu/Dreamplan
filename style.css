@@ -475,3 +475,133 @@ p.info6{
     position: relative;
     top: 30%;
 }
+
+/* Styling for my footer-section */
+
+/* Using flexbox on the footer and adding the background color */
+
+footer{
+    background-color: #2F3032;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling my container inside the footer and using display flex to place the elements inside */
+
+.container2{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.container2 p{
+    font-size: 16px ;
+}
+
+/* Styling the two divs indside my container, and givning them equal grow relative to eachother */
+
+.contact{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.links{
+    margin-top: 90px;
+    flex-grow: 1;
+    flex-basis: 100%;
+    line-height: 1.5em;
+}
+
+/* Styling the text in my container with margin */
+
+.links p{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 0px 10px 450px;
+}
+
+.copy p{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.contact p{
+    margin: 15px 0px 0px 160px;
+}
+
+/* Styling image with margin inside the container */
+
+.contact img{
+    margin: 0px 0px 0px 150px;
+}
+
+/* Placing the icons with margin and adding font-size */
+
+.contact p i{
+    margin: 5px 15px 0px 0px;
+    font-size: 20px;
+}
+
+/* Styling my icons size, color and adding a border around, plus placing them with margin indside the border */
+
+.contact a i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 30px -130px 0px 160px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 55px;
+}
+
+/* Styling my bottom text with margin and text-align */ 
+
+.copyright{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Styling my scolling-active class, which allows me to chance the content in the navigation, when you scroll */
+
+/* Setting the background-color for navigation on scroll */
+
+.scrolling-active{
+    background-color: white;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+/* Changing the color of the text on scroll */
+
+.scrolling-active ul li a{
+    color: #2F3032;
+}
+
+/* Changing the button-color */
+
+.scrolling-active .btn1{
+    color: #2F3032;
+}
+
+/* Removing the with logo */
+
+.scrolling-active label.logo{
+    display: none;
+}
+
+/* Adding the black version of the logo on scroll */
+
+.scrolling-active label.logo2{
+    padding: 0 20px;
+    display: inline-block;
+    margin: -8px 0 0 0;
+}
+
+/* Changes the color of the burger-menu bars on scroll */ 
+
+.scrolling-active .checkbtn{
+    color: #2F3032;
+}
