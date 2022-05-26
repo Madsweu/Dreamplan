@@ -954,3 +954,54 @@ footer{
         margin: 15px 0px 0px 50px;
     }
 }
+
+/* Adding my media quries, which makes all the elements in my code responsive in different viewports */ 
+
+@media only screen and (max-width: 800px){
+    
+/* Giving my second container flex-direction, so the cards wil be in a column */
+    
+    .container2{
+        flex-direction: column;
+    }
+
+/* Changing the color og my second cta-button, to make it visible */
+
+    .container a.cta2{
+        color: #2F3032;
+        border: 2px solid #2F3032;
+        font-weight: 700;
+    }
+
+/* Changing the hight of my background-images */ 
+
+    .clients{
+        height: 290vh;
+    }
+
+    .Partner{
+        height: 110vh;
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+/* Giving the image a max-width, to make it responsive */
+
+    .lock img{
+        max-width: 100%;
+    }
+
+/* Removing top-margin for my heading */
+    
+    h1{
+        margin-top: 0;
+    }
+
+
+/* Giving the image a top-margin to push it down */
+
+    .row img{
+        margin-top: 50px;
+    }
+}
