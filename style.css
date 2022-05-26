@@ -378,3 +378,30 @@ p.info8{
     font-size: 16px;
     margin-bottom: 45px;
 }
+
+/* Styling for the partner-section, where i used a lot of the same stylings from my third section */ 
+
+/* Adding background picture and setting the height */ 
+
+.Partner{
+    background: url(./Images/white-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30vh;
+}
+
+/* Placing class with flex and margin */
+
+.partners{
+    flex: 60%;
+    padding: 5px;
+    text-align: center;
+    margin: 180px 0px 0px 0px;
+}
+
+/* Hidding the second picture on desktop-version */ 
+
+.mobile{
+    display: none;
+}
