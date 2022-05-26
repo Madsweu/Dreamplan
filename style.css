@@ -26,34 +26,43 @@ body{
 
 /* Styling my navigationbar and logo */
 
-/* Styling nav, logo, ul, li and a */
+/* Making the nav stay at the top when you scroll with position "fixed" */
 
 nav{
     position: fixed;
     top: 0;
-    z-index: 2000;
     height: 80px;
     width: 100%;
 }
+
+/* Pushing my logo with padding */
 
 label.logo{
     padding: 0 20px;
 }
 
+/* Making second logo disapear */
+
 label.logo2{
     display: none;
 }
+
+/* Placing my ul at the right-side of the screen */
 
 nav ul{
     float: right;
     margin-left: 20px;
 }
 
+/* Styling for my li */
+
 nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 20px;
 }
+
+/* Styling for my text */
 
 nav ul li a{
     color: white;
@@ -604,4 +613,85 @@ footer{
 
 .scrolling-active .checkbtn{
     color: #2F3032;
+}
+
+/* Adding my media quries, which makes all the elements in my code responsive in differnet viewports */ 
+
+/* Making my navigation responsive */
+
+@media (max-width: 965px){
+
+/* Adding the font-size for my text in the navgation */
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+/* Making my burger-menu appear */ 
+
+    .checkbtn{
+        display: block;
+    }
+
+/* Removing my cta buttons from the nav */
+
+    button{
+        display: none;
+    }
+
+/* Styling for my ul's, giving the class a transition and making it disapear on default */
+
+    ul{
+        position: fixed;
+        width: 50%;
+        top: 80px;
+        right: -100%;
+        transition: all .5s;
+        background-color: white;
+        text-align: center;
+        border-radius: 25px 0 0 25px;
+        box-shadow: 2px 4px 10px #2F3032;
+    }
+
+/* Changing the background-color of my ul's on scroll */
+
+    .scrolling-active ul{
+        background-color: #2F3032;
+       
+    }
+
+/* Giving my nav display block and placing it with margin */
+
+    nav ul li{
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+
+/* Styling for text in the nav */
+
+    nav ul li a{
+        margin: 10px 10px 10px 25px;
+        color: #2F3032;
+    }
+
+/* Changing the text color on scroll */
+
+    .scrolling-active ul li a{
+        color: white;
+    }
+
+/* Making the ul's appear when you click on the burger-menu */
+
+    #check:checked ~ ul{
+        right: 0;
+    }
+
+/* Styling for the container */
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+        color: white;
+    }
 }
