@@ -340,3 +340,41 @@ p.info3{
     cursor: pointer;
     margin-top: 2rem;
 }
+
+/* Styling for my data-section and reuse two of my previous classes */
+
+/* Adding background picture and setting the height */ 
+
+.Data{
+    background: url(./Images/background-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+}
+
+/* Using flexbox & margin on my two divs */
+
+.lock{
+    flex: 60%;
+    padding: 5px;
+    text-align: center;
+    margin: 300px 0px 0px 0px;
+}
+
+.text5{
+    flex: 50%;
+    padding: 5px;
+    margin: 500px 0px 0px 180px;
+}
+
+/* Styling for heading and text */
+
+.heading{
+    color: white;
+}
+
+p.info8{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
