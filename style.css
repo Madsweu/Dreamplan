@@ -28,9 +28,12 @@ body{
 
 /* Making the nav stay at the top when you scroll with position "fixed" */
 
+/* Adding z-index for nav, so it stays as the top layer */
+
 nav{
     position: fixed;
     top: 0;
+    z-index: 2000;
     height: 80px;
     width: 100%;
 }
@@ -779,5 +782,175 @@ footer{
 
     .clients{
         height: 115vh;
+    }
+}
+
+/* Adding my media quries, which makes all the elements in my code responsive in different viewports */ 
+
+/* Making text, buttons, divs & pictures responsive */
+
+@media screen and (max-width: 840px){
+
+/* Making the width of picture smaller */
+
+    .row img{
+        width: 80%;
+    }
+
+/* Setting the font-size for my headings & placing them with margin*/
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h2{
+        font-size: 24px;
+        margin: 25px 0px 0px 20px;
+    }
+
+/* Placing my text with margin */ 
+
+    p{
+        margin: 20px 20px 20px 20px;
+    }
+
+/* Setting the font-size for my text and placing it on the left */
+
+    p.info, p.info1, p.info2, p.info3, p.info4, p.info5, p.info6, p.info7, p.info8{
+        text-align: left;
+        font-size: 16px;
+    }
+
+/* Giving margin for the buttons in the container */
+
+    .container a.cta1, a.cta2{
+        margin: 0;
+        margin-left: 35px;
+
+    }
+
+/* Giving margin and padding, plus changing the font-size */
+
+    a.cta3{
+        margin-left: 15px;
+        padding: 10px 25px;
+        font-size: 12px;
+        margin-bottom: 70px;  
+    }
+
+    a.cta4, a.cta5{
+        margin-left: 15px;
+        padding: 10px 25px;
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+
+/* Placing the divs with margin, with makes a gap between each section */
+
+    .text{
+        margin: 0;
+    }
+
+    .text2{
+        margin: 120px 0 0 0;
+    }
+
+    .text3{
+        margin: 50px 0 0 0;
+    }
+
+    .text4{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .text5{
+        margin: 300px 0 0 0;
+    }
+
+/* Placing my divs with margin */ 
+
+    .chatflow{
+        margin: 40px 15px 0px 0px;
+    }
+
+    .partners{
+        margin: 0;
+    }
+
+    .links{
+        margin-top: 0;
+    }
+
+/* Giving my divs flex-direction */
+
+    .main{
+        flex-direction: column-reverse;
+    }
+    
+    .main2{
+        flex-direction: column;
+    }
+
+    .main3{
+        flex-direction: column-reverse;
+    }
+
+/* Changing the picture direction */
+    
+    .desk{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+    
+/* Placing my section with margin */
+    
+    .solution{
+        margin-top: 50%;
+    }
+
+/* Placing my images with margin */
+
+    .solution img{
+        margin: 25px 15px 0px 0px;
+
+    }
+
+    .screen img{
+        width: 100%;
+        margin: 0px 25px 0px -25px;
+    }
+
+    .lock img{
+        margin: -300px 0 0 0;
+        
+    }
+
+    .contact img{
+        margin: 0px 0px 0px 50px;
+    }
+
+/* Placing the text in my container on the left side */
+
+    .container2{
+        text-align: left;
+    }
+
+/* Placing my text and icons in the footer with margin */
+
+    .contact p{
+       margin: 15px 0px 0px 50px;
+    }
+
+    .contact a i{
+        margin: 30px -20px 0px 50px;
+    }
+
+    .links p{
+        margin: 15px 0px 0px 50px;
     }
 }
