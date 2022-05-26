@@ -213,6 +213,14 @@ h2{
     margin-left: 80px;
 }
 
+/* Using flex and margin to place my text */
+
+.text{
+    flex: 40%;
+    padding: 5px;
+    margin: -110px 180px 0px 0px;
+}
+
 p.info{
     color: #2F3032;
     font-size: 16px;
@@ -238,3 +246,54 @@ p.info1{
     margin-top: 2rem;
 }
 
+/* Styling my start-section */ 
+
+/* Adding background picture */ 
+
+.Start{
+    background: url(./Images/background-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+/* Using the felxbox-proberty on my two divs and placing the elements with margin */
+
+.main2{
+    display: flex;
+}
+
+.chatflow{
+    flex: 60%;
+    padding: 5px;
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+}
+
+.text2{
+    flex: 50%;
+    padding: 5px;
+    margin: 275px 0px 0px 180px;
+}
+
+/* Styling my text & button */
+
+p.info2{
+    color: #2F3032;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.cta4{
+    font-family: 'Montserrat Alternates', sans-serif;;
+    background: #FAF33E;
+    color: #2F3032;
+    text-decoration: none;
+    border: 2px solid #FAF33E;
+    padding: 15px 25px;
+    margin-left: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
